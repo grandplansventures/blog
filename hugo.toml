@@ -1,0 +1,44 @@
+baseURL = "https://grandplansventures.github.io"
+title = "Grand Plans Ventures"
+theme = "PaperMod"
+
+# Parameters
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+[params.profileMode]
+enabled = true
+title = "Your Name"
+subtitle = "Your Blog Description"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "/tags"
+
+# Menu Items
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
